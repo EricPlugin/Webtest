@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>事件</title>
+    <style type="text/css">
+        input{font-size:26px;margin-top: 20px;}
+        body{background-image: url(img/grassland.png);}
+        #mytank{position: absolute;left:10px;top:100px}
+    </style>
+</head>
+<body>
+<input type="button" value="按钮一" id="btn1"/>
+<input type="button" value="按钮二" id="btn2"/>
+<input type="button" value="按钮三" id="btn3"/>
+<hr />
+<img id="mytank" src="img/right.png"/>
+<script type="text/javascript">
+    //按钮一事件响应
+    document.getElementById("btn1").addEventListener(
+        "click",
+        function () {
+            alert("javascript事件1")
+        }
+    );
+    //按钮二事件响应
+    document.getElementById("btn2").addEventListener(
+        "click",
+        function () {
+            document.getElementById("btn2").value="按钮二测试";
+        }
+    );
+    //按钮三事件响应
+    document.getElementById("btn3").addEventListener(
+        "click",
+        function () {
+            document.getElementById("btn3").style.backgroundColor="blue";
+        }
+    );
+    var mytank = document.getElementById('mytank');
+    window.addEventListener(
+        'keydown',
+        function(e){
+            //向右
+            if(e.keyCode == 39){
+                mytank.style.left = (mytank.offsetLeft+10)+'px';
+                document.getElementById("mytank").src="img/right.png";
+            }
+
+            //向左
+            if(e.keyCode == 37){
+                mytank.style.left = (mytank.offsetLeft-10)+'px';
+                document.getElementById("mytank").src="img/left.png";
+            }
+
+            //向下
+            if(e.keyCode == 40){
+                mytank.style.top = (mytank.offsetTop+10)+'px';
+                document.getElementById("mytank").src="img/down.png";
+            }
+
+            //向上
+            if(e.keyCode == 38){
+                mytank.style.top = (mytank.offsetTop-10)+'px';
+                document.getElementById("mytank").src="img/up.png";
+            }
+        });
+
+
+</script>
+</body>
+</html>

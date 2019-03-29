@@ -1,0 +1,132 @@
+html{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Microsoft YaHei UI";
+}
+.head{
+    margin-top: 0px;
+    width: 1600px;
+    height: 150px;
+}
+.head p{
+    padding-left: 200px;
+    padding-top: 100px;
+    font-size: 30px;
+    font-weight: initial;
+    color: #00a0e9;
+}
+.body{
+    width: 1550px;
+    height: 600px;
+    background-color: #00a0e9;
+}
+.body_left{
+    float: left;
+    margin-left: 120px;
+    margin-top: -20px;
+}
+.body_right{
+    float: left;
+    padding-top: 60px;
+}
+.body_login{
+    float: left;
+    width: 400px;
+    height: 420px;
+    background-color: #ecf9ff;
+}
+.body_help{
+    color: #e9f4fc;
+    font-size: 15px;
+    padding-left: 400px;
+    padding-bottom: 15px;
+}
+.body_login{
+    padding-left: 30px;
+}
+.body_login_title{
+    margin-top: 30px;
+    margin-bottom: 45px;
+    font-size: 20px;
+    color: #333333;
+}
+.body_login_img{
+    float: left;
+    padding-bottom: 0px;
+}
+.body_login_input{
+    margin-left: -5px;
+}
+#input{
+    padding-left: 10px;
+    color: #cacaca;
+    font-size: 15px;
+}
+.body_login_input input{
+    padding-top: -30px;
+    margin-left: -5px;
+    height: 41px;
+    width: 270px;
+    border-width: 1px;
+    border-color: #cdcdcd;
+}
+.body_login_password{
+    margin-top:40px;
+}
+.body_login_remember{
+    margin-top: 30px;
+}
+.body_login_remember_input{
+    float: left;
+    border: 0px;
+    background-color: white;
+}
+.body_login_remember_title{
+    float: left;
+    margin-top: 1px;
+    color: #828484;
+    font-size: 13px;
+}
+.body_login_button{
+    padding-top: 40px;
+}
+.body_login_button button{
+    width: 335px;
+    height: 45px;
+    border: 0px;
+    background-color: #00a0e9;
+    color: white;
+    font-size: 18px;
+    font-size: 18px;
+}
+#deng{
+    float: left;
+    margin-left: 120px;
+}
+#lu{
+    float: left;
+    margin-left: 40px;
+}
+.body_login_forget{
+    margin-top: 15px;
+    color: #828484;
+    font-size: 13px;
+}
+.foot{
+    font-size: 10px;
+    margin-top: 30px;
+    color: #878787;
+}
+.foot_1 {
+    float: left;
+    margin-left: -710px;
+
+}
+.foot_2{
+    margin-left: 260px;
+    float: left;
+}

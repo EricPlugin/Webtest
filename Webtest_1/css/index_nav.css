@@ -1,0 +1,44 @@
+.nav{
+    float: left;
+    width: 1800px;
+    height: 100px;
+    background-color: white;
+    border-collapse:collapse;
+}
+.nav_1{
+    float: left;
+    margin-left: 460px;
+}
+.nav_1_title{
+    float: left;
+    margin-top: 40px;
+    margin-left: 60px;
+    font-family: "Times New Roman";
+    font-weight: bold;
+    color: #777777;
+}
+.nav_2{
+    float: left;
+    margin-left: 120px;
+}
+.nav_2_bag{
+    float: left;
+    margin-top: 35px;
+}
+.nav_2_item{
+    float: left;
+    margin-top: 40px;
+    margin-left: 10px;
+    font-size: 10px;
+    color: #ddb678;
+}
+.nav_2_like{
+    float: left;
+    margin-top: 40px;
+    margin-left: 45px;
+}
+.nav_2_search{
+    float: left;
+    margin-top: 40px;
+    margin-left: 30px;
+}

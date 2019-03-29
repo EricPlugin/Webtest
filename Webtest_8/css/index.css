@@ -1,0 +1,30 @@
+body,div{
+    margin: 0;
+    padding: 0;
+}
+.date{
+    background: url("../img/cald.png");
+    height:138px;
+    width:150px;
+    text-align: center;
+}
+#week{
+    font-size: 21px;
+    color: white;
+}
+#date{
+    font-size: 80px;
+    font-weight: bold;
+}
+.time_border{
+    background: url("../img/clock.png");
+    height: 146px;
+    width: 240px;
+}
+#time{
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 30px;
+}

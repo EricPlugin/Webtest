@@ -1,0 +1,11 @@
+.mytable{
+    border: 1px #000000 solid;
+    border-collapse: collapse;
+}
+.mytable td{
+    border: 1px #000000 solid;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
